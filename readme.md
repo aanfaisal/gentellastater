@@ -2,15 +2,6 @@
 
 Laravel-gentelella is a Laravel 5.3 application with all Gentelella template components.
 
-## Change log
-### 2.0
-- Add Auth support (see **[Update 2.0](#update-20)**)
-
-### 2.1
-- Add errors pages (500, 404 and 403)
-
-### 2.2
-- Add real name and **[Gravatar](https://github.com/thomaswelton/laravel-gravatar)** on UI
 
 ### 3.0
 - Laravel-Gentelella run now on Laravel 5.3 !
@@ -42,19 +33,6 @@ Laravel is accessible, yet powerful, providing tools needed for large, robust ap
 Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs/5.3).
 
 
-# Installation
-
-First, clone git rep0sitory
-
-With Git SSH
-```
-git clone git@github.com:FlorientR/laravel-gentelella.git
-```
-
-Or with HTTPS
-```
-git clone https://github.com/FlorientR/laravel-gentelella.git
-```
 
 Go to the project folder 
 ```
@@ -86,22 +64,4 @@ npm install
 bower install
 gulp
 ```
-
-###UPDATE 2.0
-
-Add auth support !
-
-**WARNING** : For auth support, configure your ```.env``` file with ```database``` and ```smtp``` connection !
-
-For install auth support, run this follow commands
-
-```
-php artisan migrate
-```
-
-###UPDATE 3.0
-
-####Laravel-Gentelella is now on Laravel 5.3 !!
-
-And you are ready for a new Laravel 5.3 application with Gentelella template !!
 
