@@ -65,7 +65,7 @@ return [
     |
     */
 
-    'locale' => 'en',
+    'locale' => 'id',
 
     /*
     |--------------------------------------------------------------------------
@@ -147,7 +147,7 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-		    Illuminate\Notifications\NotificationServiceProvider::class,
+		Illuminate\Notifications\NotificationServiceProvider::class,
         Collective\Html\HtmlServiceProvider::class,
         Collective\Bus\BusServiceProvider::class,
 
@@ -159,7 +159,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         App\Providers\BroadcastServiceProvider::class,
-		    Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
+		Thomaswelton\LaravelGravatar\LaravelGravatarServiceProvider::class,
         Barryvdh\DomPDF\ServiceProvider::class,
         Maatwebsite\Excel\ExcelServiceProvider::class,
         Appzcoder\CrudGenerator\CrudGeneratorServiceProvider::class,
@@ -209,8 +209,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
-    		'Notification' => Illuminate\Support\Facades\Notification::class,
-    		'Gravatar' => Thomaswelton\LaravelGravatar\Facades\Gravatar::class,
+    	'Notification' => Illuminate\Support\Facades\Notification::class,
+    	'Gravatar' => Thomaswelton\LaravelGravatar\Facades\Gravatar::class,
         'PDF' => Barryvdh\DomPDF\Facade::class,
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,
         'Form' => Collective\Html\FormFacade::class,
